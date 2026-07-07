@@ -1,0 +1,73 @@
+{
+  "mariages": [
+    "mariages-01.jpg",
+    "mariages-02.jpg",
+    "mariages-03.jpg",
+    "mariages-04.jpg",
+    "mariages-05.jpg",
+    "mariages-06.jpg",
+    "mariages-07.jpg",
+    "mariages-08.jpg",
+    "mariages-09.jpg",
+    "mariages-10.jpg",
+    "mariages-11.jpg",
+    "mariages-12.jpg"
+  ],
+  "fine-art": [
+    "fine-art-01.jpg",
+    "fine-art-02.jpg",
+    "fine-art-03.jpg",
+    "fine-art-04.jpg",
+    "fine-art-05.jpg",
+    "fine-art-06.jpg",
+    "fine-art-07.jpg",
+    "fine-art-08.jpg",
+    "fine-art-09.jpg",
+    "fine-art-10.jpg",
+    "fine-art-11.jpg",
+    "fine-art-12.jpg"
+  ],
+  "evenements": [
+    "evenements-01.jpg",
+    "evenements-02.jpg",
+    "evenements-03.jpg",
+    "evenements-04.jpg",
+    "evenements-05.jpg",
+    "evenements-06.jpg",
+    "evenements-07.jpg",
+    "evenements-08.jpg",
+    "evenements-09.jpg",
+    "evenements-10.jpg"
+  ],
+  "hommages": [
+    "hommages-01.jpg",
+    "hommages-02.jpg",
+    "hommages-03.jpg",
+    "hommages-04.jpg",
+    "hommages-05.jpg",
+    "hommages-06.jpg",
+    "hommages-07.jpg",
+    "hommages-08.jpg",
+    "hommages-09.jpg"
+  ],
+  "cours": [
+    "cours-01.jpg",
+    "cours-02.jpg",
+    "cours-03.jpg",
+    "cours-04.jpg",
+    "cours-05.jpg",
+    "cours-06.jpg",
+    "cours-07.jpg",
+    "cours-08.jpg"
+  ],
+  "abonnements": [
+    "abonnements-01.jpg",
+    "abonnements-02.jpg",
+    "abonnements-03.jpg",
+    "abonnements-04.jpg",
+    "abonnements-05.jpg",
+    "abonnements-06.jpg",
+    "abonnements-07.jpg",
+    "abonnements-08.jpg"
+  ]
+}

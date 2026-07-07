@@ -1,0 +1,59 @@
+# robots.txt — Afleuressences (afleuressences.fr)
+# Fleuriste artisanale à L'Union, près de Toulouse.
+
+# ------------------------------------------------------------
+# Moteurs de recherche classiques : tout est autorisé
+# ------------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# ------------------------------------------------------------
+# Crawlers IA / moteurs génératifs (GEO) — explicitement AUTORISÉS
+# On VEUT être cité par ChatGPT, Perplexity, Gemini, Claude, etc.
+# ------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ------------------------------------------------------------
+# Ressources
+# ------------------------------------------------------------
+Sitemap: https://afleuressences.fr/sitemap.xml
+
+# Aperçu structuré pour les modèles de langage : https://afleuressences.fr/llms.txt
