@@ -9,6 +9,21 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-merville</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-latournelle</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-puydaniel</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://afleuressences.fr/un-peu-de-moi</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/un-peu-de-moi"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/about"/>
