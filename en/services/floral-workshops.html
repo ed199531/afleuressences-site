@@ -116,11 +116,12 @@
       <img src="/images/gallery/cours-06.jpg" alt="Floral art workshop creation" loading="lazy">
     </div>
 
-    <h2 class="sub" id="schedule">Upcoming workshop schedule</h2>
-    <p class="lead" style="font-size:13px;color:#999">Interactive calendar (Modern Events Calendar), unchanged technically, merged here with the presentation page to avoid splitting into two thin pages.</p>
-    <div style="border:1px solid #eee;border-radius:8px;padding:24px;text-align:center;color:#999;font-size:13px;">
-      [ calendar widget placeholder, June / July / August 2026 ]
-    </div>
+    <h2 class="sub" id="schedule">Upcoming workshop dates</h2>
+    <p class="lead">Here are my next workshops. Pick the date you like and send your request in one click, I will get back to you to confirm your spot.</p>
+    <div id="ateliers-grid" class="ateliers-grid" data-lang="EN"
+         data-label-reserve="Book this date"
+         data-label-complet="Fully booked"
+         data-empty="No date scheduled at the moment. Get in touch to arrange a workshop whenever you like."></div>
 
     <h2 class="sub">Frequently asked questions</h2>
     <div class="faq">
@@ -142,7 +143,7 @@
       </div>
     </div>
 
-    <p style="margin-top:28px"><a class="btn" href="/en/contact">Book my spot</a></p>
+    <p style="margin-top:28px"><a class="btn" href="#schedule">See upcoming dates</a></p>
   </div>
 </section>
 
@@ -207,6 +208,33 @@
     </div>
   </div>
 </footer>
+
+<div id="reservation-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Workshop booking request">
+  <div class="modal">
+    <button type="button" class="modal-close" aria-label="Close">&times;</button>
+    <h3>Request my spot</h3>
+    <div class="modal-atelier"></div>
+    <form action="/reservation.php" method="POST">
+      <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="atelier" value="">
+      <div class="form-row">
+        <div><label>First name *<input type="text" name="prenom" required></label></div>
+        <div><label>Last name *<input type="text" name="nom" required></label></div>
+      </div>
+      <div class="form-row">
+        <div><label>Email *<input type="email" name="email" required></label></div>
+        <div><label>Phone *<input type="tel" name="telephone" required></label></div>
+      </div>
+      <div class="form-row">
+        <div><label>Number of adults<input type="number" name="adultes" min="0" value="1"></label></div>
+        <div><label>Number of children<input type="number" name="enfants" min="0" value="0"></label></div>
+      </div>
+      <label>Message (optional)<textarea name="message" rows="3"></textarea></label>
+      <p class="form-status" data-success="Your request has been sent, Anne-Marie will get back to you to confirm." data-error="Sending failed, please try again or call +33 6 63 77 13 30."></p>
+      <button type="submit" class="btn">Send my request</button>
+    </form>
+  </div>
+</div>
 
 <div id="cookie-banner" class="cookie-banner" hidden>
   <div class="cookie-banner-inner">

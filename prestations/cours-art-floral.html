@@ -116,11 +116,12 @@
       <img src="/images/gallery/cours-06.jpg" alt="Cours d'art floral, réalisation" loading="lazy">
     </div>
 
-    <h2 class="sub" id="planning">Planning des prochains ateliers</h2>
-    <p class="lead" style="font-size:13px;color:#999">Calendrier interactif (Modern Events Calendar), inchangé techniquement, fusionné ici avec la page de présentation pour ne plus avoir deux pages séparées.</p>
-    <div style="border:1px solid #eee;border-radius:8px;padding:24px;text-align:center;color:#999;font-size:13px;">
-      [ emplacement du widget calendrier, juin / juillet / août 2026 ]
-    </div>
+    <h2 class="sub" id="planning">Prochaines dates d'ateliers</h2>
+    <p class="lead">Voici mes prochains ateliers. Choisissez la date qui vous plaît et faites votre demande en un clic, je vous recontacte pour confirmer votre place.</p>
+    <div id="ateliers-grid" class="ateliers-grid" data-lang="FR"
+         data-label-reserve="Réserver ce créneau"
+         data-label-complet="Complet"
+         data-empty="Aucune date programmée pour le moment. Contactez-moi pour organiser un atelier quand vous le souhaitez."></div>
 
     <h2 class="sub">Questions fréquentes</h2>
     <div class="faq">
@@ -142,7 +143,7 @@
       </div>
     </div>
 
-    <p style="margin-top:28px"><a class="btn" href="/contact">Réserver ma place</a></p>
+    <p style="margin-top:28px"><a class="btn" href="#planning">Voir les prochaines dates</a></p>
   </div>
 </section>
 
@@ -208,6 +209,33 @@
   </div>
 </footer>
 
+
+<div id="reservation-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Demande de réservation d'atelier">
+  <div class="modal">
+    <button type="button" class="modal-close" aria-label="Fermer">&times;</button>
+    <h3>Demander ma place</h3>
+    <div class="modal-atelier"></div>
+    <form action="/reservation.php" method="POST">
+      <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="atelier" value="">
+      <div class="form-row">
+        <div><label>Prénom *<input type="text" name="prenom" required></label></div>
+        <div><label>Nom *<input type="text" name="nom" required></label></div>
+      </div>
+      <div class="form-row">
+        <div><label>Email *<input type="email" name="email" required></label></div>
+        <div><label>Téléphone *<input type="tel" name="telephone" required></label></div>
+      </div>
+      <div class="form-row">
+        <div><label>Nombre d'adultes<input type="number" name="adultes" min="0" value="1"></label></div>
+        <div><label>Nombre d'enfants<input type="number" name="enfants" min="0" value="0"></label></div>
+      </div>
+      <label>Message (optionnel)<textarea name="message" rows="3"></textarea></label>
+      <p class="form-status" data-success="Votre demande a bien été envoyée, Anne-Marie vous recontacte pour confirmer." data-error="L'envoi a échoué, merci de réessayer ou d'appeler le 06 63 77 13 30."></p>
+      <button type="submit" class="btn">Envoyer ma demande</button>
+    </form>
+  </div>
+</div>
 
 <div id="cookie-banner" class="cookie-banner" hidden>
   <div class="cookie-banner-inner">

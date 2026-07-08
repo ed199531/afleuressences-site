@@ -1,0 +1,34 @@
+{
+  "ateliers": [
+    {
+      "theme": "Bouquet d'automne",
+      "date": "2026-09-16",
+      "horaire": "18h30 - 20h00",
+      "tarif_adulte": 45,
+      "tarif_enfant": 20,
+      "statut": "Publié",
+      "langue": "FR + EN",
+      "description": "Composez un bouquet aux couleurs et matières de l'automne."
+    },
+    {
+      "theme": "Composition de la Toussaint",
+      "date": "2026-10-14",
+      "horaire": "18h30 - 20h00",
+      "tarif_adulte": 45,
+      "tarif_enfant": 20,
+      "statut": "Publié",
+      "langue": "FR",
+      "description": "Un moment de recueillement pour créer une composition en hommage."
+    },
+    {
+      "theme": "Couronne de l'Avent",
+      "date": "2026-12-02",
+      "horaire": "18h30 - 20h00",
+      "tarif_adulte": 50,
+      "tarif_enfant": 25,
+      "statut": "Publié",
+      "langue": "FR + EN",
+      "description": "Réalisez votre couronne de l'Avent en matières naturelles."
+    }
+  ]
+}
