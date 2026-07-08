@@ -9,6 +9,20 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://afleuressences.fr/prestations</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://afleuressences.fr/mariage-chateau-de-merville</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
