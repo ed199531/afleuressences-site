@@ -24,18 +24,45 @@
   </url>
   <url>
     <loc>https://afleuressences.fr/mariage-chateau-de-merville</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-merville"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-merville"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://afleuressences.fr/mariage-chateau-de-latournelle</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-latournelle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-latournelle"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://afleuressences.fr/mariage-chateau-de-puydaniel</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-puydaniel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-puydaniel"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-merville</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-merville"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-merville"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-latournelle</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-latournelle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-latournelle"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-puydaniel</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-puydaniel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-puydaniel"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://afleuressences.fr/un-peu-de-moi</loc>
