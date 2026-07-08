@@ -82,41 +82,80 @@
 <section class="section">
   <div class="container">
     <p class="lead" style="text-align:center;max-width:640px;margin:0 auto 32px">
-      This page replaces the homepage carousel (currently broken on a technical level) with a real gallery, organised by category, the best showcase for a visually-driven craft.
+      Bridal bouquets, statement designs, delicate tributes and seasonal arrangements, a glimpse of my work, creation after creation. Click a photo to enlarge.
     </p>
 
-    <div class="filter-tabs">
-      <button class="active">All</button>
-      <button>Weddings</button>
-      <button>Life events</button>
-      <button>Sympathy</button>
-      <button>Workshops</button>
+    <div class="filter-tabs" id="gallery-filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="mariages">Weddings</button>
+      <button data-filter="fine-art">Fine Art</button>
+      <button data-filter="evenements">Life events</button>
+      <button data-filter="hommages">Sympathy</button>
+      <button data-filter="cours">Workshops</button>
+      <button data-filter="abonnements">Subscriptions</button>
     </div>
 
-    <div class="gallery-grid">
-      <img src="/images/carousel_00.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_01.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_02.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_03.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_04.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_05.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_06.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_07.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_08.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_09.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_10.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_11.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_12.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_13.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_14.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_15.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_16.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_17.jpg" alt="Floral creation" loading="lazy">
-      <img src="/images/carousel_18.jpg" alt="Floral creation" loading="lazy">
+    <div class="gallery-grid" id="gallery-grid">
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-01.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-01.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-01.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-01.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-01.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-01.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-01.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-01.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-01.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-01.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-01.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-01.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-02.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-02.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-02.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-02.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-02.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-02.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-02.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-02.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-02.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-02.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-02.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-02.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-03.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-03.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-03.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-03.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-03.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-03.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-03.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-03.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-03.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-03.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-03.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-03.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-04.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-04.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-04.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-04.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-04.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-04.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-04.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-04.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-04.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-04.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-04.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-04.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-05.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-05.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-05.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-05.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-05.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-05.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-05.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-05.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-05.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-05.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-05.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-05.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-06.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-06.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-06.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-06.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-06.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-06.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-06.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-06.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-06.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-06.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-06.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-06.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-07.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-07.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-07.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-07.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-07.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-07.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-07.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-07.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-07.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-07.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-07.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-07.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-08.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-08.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-08.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-08.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-08.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-08.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-08.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-08.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="cours" href="/images/gallery/cours-08.jpg" target="_blank" rel="noopener"><img src="/images/gallery/cours-08.jpg" alt="Floral art workshop" loading="lazy"></a>
+      <a class="gallery-item" data-category="abonnements" href="/images/gallery/abonnements-08.jpg" target="_blank" rel="noopener"><img src="/images/gallery/abonnements-08.jpg" alt="Floral subscription" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-09.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-09.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-09.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-09.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-09.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-09.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="hommages" href="/images/gallery/hommages-09.jpg" target="_blank" rel="noopener"><img src="/images/gallery/hommages-09.jpg" alt="Floral arrangement, sympathy tribute" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-10.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-10.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-10.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-10.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="evenements" href="/images/gallery/evenements-10.jpg" target="_blank" rel="noopener"><img src="/images/gallery/evenements-10.jpg" alt="Floral creation, life event" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-11.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-11.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-11.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-11.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="mariages" href="/images/gallery/mariages-12.jpg" target="_blank" rel="noopener"><img src="/images/gallery/mariages-12.jpg" alt="Floral creation, wedding" loading="lazy"></a>
+      <a class="gallery-item" data-category="fine-art" href="/images/gallery/fine-art-12.jpg" target="_blank" rel="noopener"><img src="/images/gallery/fine-art-12.jpg" alt="Floral creation, Fine Art wedding" loading="lazy"></a>
     </div>
-    <p style="font-size:12px;color:#999;text-align:center;margin-top:16px">
-      19 existing photos reused from the current site. Full sorting by category will be done with Anne-Marie once all her photos are collected.
-    </p>
   </div>
 </section>
 
