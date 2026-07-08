@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
+  var siteHeader = document.querySelector('header');
+  if (siteHeader) {
+    var onScroll = function () {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 4);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
   var burger = document.querySelector('.burger');
   var navLinks = document.querySelector('.nav-links');
   if (burger && navLinks) {

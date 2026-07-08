@@ -18,6 +18,8 @@ img { max-width: 100%; display: block; }
 ul { margin: 0; padding: 0; }
 .container { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
 
+header { position: sticky; top: 0; z-index: 50; background: #fff; transition: box-shadow 0.25s ease; }
+header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .topbar { background: var(--sage); font-size: 13px; color: var(--green-dark); }
 .topbar .container { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; padding-bottom: 8px; gap: 12px; }
 .topbar-phone { display: flex; align-items: center; gap: 6px; font-weight: 600; white-space: nowrap; }
@@ -134,7 +136,7 @@ ul { margin: 0; padding: 0; }
 .review-card .meta { font-size: 11px; color: #aaa; margin: 2px 0 0; }
 
 .about-page { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: start; }
-.about-page-photo img { border-radius: 8px; position: sticky; top: 24px; }
+.about-page-photo img { border-radius: 8px; position: sticky; top: 110px; }
 
 .reviews-marquee-wrap { overflow: hidden; position: relative; margin: 0 -24px; }
 .reviews-marquee-wrap::before, .reviews-marquee-wrap::after {
