@@ -291,6 +291,15 @@ footer .bottom-bar a:hover { color: #fff; }
   .carousel-btn { width: 40px; height: 40px; }
 }
 
+/* Carrousel de domaines : cartes lieu par lieu, meme mecanique de defilement */
+.domains-track { grid-auto-columns: calc((100% - 32px) / 3); align-items: stretch; }
+.domains-track .presta-card { height: 100%; }
+.domains-track .presta-card-img { aspect-ratio: 4/3; }
+.domains-track .presta-card-body { padding: 16px 18px 20px; }
+.domains-track .presta-card-body h3 { margin: 0; font-size: 20px; }
+@media (max-width: 900px) { .domains-track { grid-auto-columns: calc((100% - 16px) / 2); } }
+@media (max-width: 560px) { .domains-track { grid-auto-columns: 82%; } }
+
 .cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 100; background: #2f3a24; color: #fff; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
 .cookie-banner-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; max-width: 900px; margin: 0 auto; }
 .cookie-banner p { margin: 0; font-size: 13px; color: #d7ddc9; flex: 1; min-width: 220px; }
