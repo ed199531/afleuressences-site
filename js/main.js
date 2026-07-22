@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
       heroImages[heroIndex].classList.remove('active');
       heroIndex = (heroIndex + 1) % heroImages.length;
       heroImages[heroIndex].classList.add('active');
-    }, 4500);
+    }, 3000);
   }
 
   function wireFilter(filtersId, gridId, itemSelector) {
