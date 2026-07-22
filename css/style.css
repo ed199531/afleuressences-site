@@ -270,6 +270,27 @@ footer .bottom-bar a:hover { color: #fff; }
 .modal .honeypot { position: absolute; left: -9999px; }
 .modal .form-status { display: none; font-size: 14px; margin: 4px 0 12px; }
 
+/* Carrousel de photos : defile par blocs de 3 avec des fleches de chaque cote.
+   Demande recurrente de la cliente sur les pages prestations. */
+.carousel { position: relative; margin: 30px 0; }
+.carousel-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 32px) / 3); gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; -ms-overflow-style: none; }
+.carousel-track::-webkit-scrollbar { display: none; }
+.carousel-track > * { scroll-snap-align: start; }
+.carousel-track img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 8px; display: block; }
+.carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; width: 46px; height: 46px; border-radius: 50%; border: 1px solid #e6e6e6; background: #fff; color: var(--green); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(30,35,20,0.14); transition: background .15s ease, opacity .15s ease; }
+.carousel-btn:hover { background: var(--sage); }
+.carousel-btn:disabled { opacity: 0.25; cursor: default; box-shadow: none; }
+.carousel-prev { left: -22px; }
+.carousel-next { right: -22px; }
+@media (max-width: 900px) {
+  .carousel-track { grid-auto-columns: calc((100% - 16px) / 2); }
+  .carousel-prev { left: -8px; } .carousel-next { right: -8px; }
+}
+@media (max-width: 560px) {
+  .carousel-track { grid-auto-columns: 82%; }
+  .carousel-btn { width: 40px; height: 40px; }
+}
+
 .cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 100; background: #2f3a24; color: #fff; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
 .cookie-banner-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; max-width: 900px; margin: 0 auto; }
 .cookie-banner p { margin: 0; font-size: 13px; color: #d7ddc9; flex: 1; min-width: 220px; }
