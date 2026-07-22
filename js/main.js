@@ -222,6 +222,30 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  // Carrousels photo : defilement par blocs (3 sur ordinateur, 2 puis 1 sur mobile)
+  document.querySelectorAll('.carousel').forEach(function (c) {
+    var track = c.querySelector('.carousel-track');
+    var prev = c.querySelector('.carousel-prev');
+    var next = c.querySelector('.carousel-next');
+    if (!track || !prev || !next) return;
+    function update() {
+      prev.disabled = track.scrollLeft <= 4;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+    }
+    prev.addEventListener('click', function () { track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' }); });
+    next.addEventListener('click', function () { track.scrollBy({ left: track.clientWidth, behavior: 'smooth' }); });
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    window.addEventListener('load', update);
+    // ResizeObserver : l'etat des fleches est recalcule des que la mise en page change
+    // (chargement des images, rotation, redimensionnement), sans dependre de l'evenement resize
+    if (typeof ResizeObserver !== 'undefined') { new ResizeObserver(update).observe(track); }
+    track.querySelectorAll('img').forEach(function (img) {
+      if (!img.complete) img.addEventListener('load', update, { once: true });
+    });
+    update();
+  });
+
   var cookieBanner = document.getElementById('cookie-banner');
   if (cookieBanner) {
     var consent = null;
