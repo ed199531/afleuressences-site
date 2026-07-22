@@ -30,7 +30,10 @@ RedirectMatch 301 ^/hommages-fleurs-l-union-toulouse/?$             /prestations
 RedirectMatch 301 ^/cours-art-florale-l-union-toulouse/?$           /prestations/cours-art-floral
 RedirectMatch 301 ^/planning-cours-art-floral/?$                    /prestations/cours-art-floral
 RedirectMatch 301 ^/abonnements-floraux-l-union-toulouse/?$         /prestations/abonnements
-RedirectMatch 301 ^/fleurissement-de-sepultures-par-abonnements/?$  /prestations/fleurissement-sepultures
+RedirectMatch 301 ^/fleurissement-de-sepultures-par-abonnements/?$  /prestations/hommages#fleurissement-sepultures
+# Page sepultures fusionnee dans Hommages : on preserve le referencement acquis
+RedirectMatch 301 ^/prestations/fleurissement-sepultures/?$  /prestations/hommages#fleurissement-sepultures
+RedirectMatch 301 ^/en/services/grave-flowering/?$  /en/services/sympathy-flowers#grave-flowering
 
 # --- Pages EN (ancienne structure /en/<slug> -> nouvelle /en/... ) ---
 RedirectMatch 301 ^/en/floral-toulouse/?$          /en/

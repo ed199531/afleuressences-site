@@ -1,4 +1,21 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/fleurissement-de-sepultures-par-abonnements",
+      "destination": "/prestations/hommages#fleurissement-sepultures",
+      "permanent": true
+    },
+    {
+      "source": "/prestations/fleurissement-sepultures",
+      "destination": "/prestations/hommages#fleurissement-sepultures",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/grave-flowering",
+      "destination": "/en/services/sympathy-flowers#grave-flowering",
+      "permanent": true
+    }
+  ]
 }

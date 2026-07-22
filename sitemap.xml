@@ -100,13 +100,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://afleuressences.fr/prestations/fleurissement-sepultures</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/fleurissement-sepultures"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/grave-flowering"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://afleuressences.fr/prestations/cours-art-floral</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/cours-art-floral"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/floral-workshops"/>
