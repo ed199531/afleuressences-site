@@ -300,6 +300,13 @@ footer .bottom-bar a:hover { color: #fff; }
 @media (max-width: 900px) { .domains-track { grid-auto-columns: calc((100% - 16px) / 2); } }
 @media (max-width: 560px) { .domains-track { grid-auto-columns: 82%; } }
 
+/* Bloc video : lecteur natif, ne se telecharge qu'au clic (preload none) pour
+   ne pas ralentir la page, avec une image de couverture. */
+.video-block { margin: 30px 0; }
+.video-block video { width: 100%; display: block; border-radius: 10px; background: #000; aspect-ratio: 16/9; object-fit: cover; box-shadow: 0 10px 30px rgba(30,35,20,0.12); }
+.video-block.portrait video { aspect-ratio: 9/16; max-width: 380px; margin: 0 auto; }
+.video-caption { font-size: 13px; color: #999; text-align: center; margin-top: 10px; }
+
 .cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 100; background: #2f3a24; color: #fff; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
 .cookie-banner-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; max-width: 900px; margin: 0 auto; }
 .cookie-banner p { margin: 0; font-size: 13px; color: #d7ddc9; flex: 1; min-width: 220px; }
