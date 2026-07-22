@@ -144,4 +144,88 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-la-baronnie</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-la-baronnie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-la-baronnie</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-la-baronnie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-domaine-du-t</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-du-t"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-domaine-du-t</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-du-t"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-manoir-du-thouron</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-manoir-du-thouron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-manoir-du-thouron</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-manoir-du-thouron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-longpre</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-longpre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-longpre</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-longpre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-caumont</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-caumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-caumont</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-caumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
