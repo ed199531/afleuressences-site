@@ -1,5 +1,12 @@
+/* Systeme typographique : Playfair Display (titres), Cormorant Garamond (sous-titres
+   et accroches), Lora (texte courant), Great Vibes (accents). Auto-heberge : aucun
+   appel a Google Fonts, meilleure vitesse et conformite RGPD. */
+@font-face { font-family: 'Playfair Display'; src: url('../fonts/playfair.woff2') format('woff2'); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('../fonts/cormorant.woff2') format('woff2'); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: 'Lora'; src: url('../fonts/lora.woff2') format('woff2'); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: 'Great Vibes'; src: url('../fonts/greatvibes.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+/* Police du logo conservee pour d'eventuels rappels de marque */
 @font-face { font-family: 'Bellerose'; src: url('../fonts/Bellerose.ttf') format('truetype'); font-display: swap; }
-@font-face { font-family: 'Avalonn'; src: url('../fonts/AVALONN.ttf') format('truetype'); font-display: swap; }
 
 :root {
   --green: #65842D;
@@ -11,8 +18,10 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; font-family: 'Avalonn', 'Open Sans', Arial, sans-serif; color: var(--text); background: #fff; }
-h1, h2, h3 { font-family: 'Bellerose', Georgia, serif; font-weight: 500; color: var(--text-dark); margin: 0; }
+body { margin: 0; font-family: 'Lora', Georgia, serif; font-size: 16px; line-height: 1.75; color: var(--text); background: #fff; }
+h1, h2 { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; color: var(--text-dark); margin: 0; letter-spacing: 0.2px; }
+h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--text-dark); margin: 0; }
+.script-accent { font-family: 'Great Vibes', cursive; font-weight: 400; }
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; display: block; }
 ul { margin: 0; padding: 0; }
@@ -36,6 +45,7 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .nav .container { display: flex; justify-content: space-between; align-items: center; padding-top: 20px; padding-bottom: 20px; }
 .logo img { height: 66px; width: auto; }
 .nav-links { display: flex; gap: 30px; align-items: center; font-size: 15px; font-weight: 500; color: var(--text-dark); }
+.nav-links > a, .nav-links > .has-dropdown > a { white-space: nowrap; }
 .nav-links > a:hover, .nav-links > .has-dropdown:hover > a { color: var(--green); }
 .nav-links > a.active { color: var(--green); }
 .burger { display: none; background: none; border: none; padding: 8px; cursor: pointer; }
@@ -55,8 +65,8 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .hero { padding: 56px 0; background: var(--sage); }
 .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; }
 .hero-content { text-align: left; }
-.hero h1 { font-size: 34px; margin-bottom: 14px; color: var(--green); }
-.hero-quote { font-family: 'Bellerose', Georgia, serif; font-style: normal; font-size: 23px; line-height: 1.7; color: var(--text-dark); margin-bottom: 16px; }
+.hero h1 { font-size: 40px; margin-bottom: 18px; color: var(--green); }
+.hero-quote { font-family: 'Cormorant Garamond', Georgia, serif; font-style: normal; font-weight: 500; font-size: 26px; line-height: 1.65; color: var(--text-dark); margin-bottom: 16px; }
 .hero-author { font-size: 13px; color: var(--green-dark); margin-bottom: 18px; }
 .hero-image { position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 16px 40px rgba(30,35,20,0.15); aspect-ratio: 4/5; }
 .hero-image img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.2s ease; }
@@ -77,20 +87,20 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 
 .section { padding: 64px 0; }
 .section-narrow { max-width: 760px; margin: 0 auto; }
-.section-title { text-align: center; font-size: 30px; color: var(--green); margin-bottom: 40px; }
-.section p.lead { font-size: 15px; line-height: 1.9; margin: 0 0 18px; }
-.section h2.sub { color: var(--green); font-size: 20px; margin: 28px 0 10px; }
+.section-title { text-align: center; font-size: 34px; color: var(--green); margin-bottom: 44px; }
+.section p.lead { font-size: 16px; line-height: 1.85; margin: 0 0 20px; }
+.section h2.sub { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--green); font-size: 26px; letter-spacing: 0.3px; margin: 34px 0 12px; }
 
 .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
 .service-card { border: 1px solid #eee; border-radius: 6px; padding: 28px 20px; text-align: center; }
-.service-card h3 { font-size: 18px; margin: 14px 0 8px; }
+.service-card h3 { font-size: 21px; margin: 14px 0 8px; }
 .service-card p { font-size: 13px; line-height: 1.6; margin: 0 0 14px; }
 .service-card .link { color: var(--rose); font-weight: 600; font-size: 13px; }
 
 .about { background: var(--sage); }
 .about .container { display: flex; gap: 40px; align-items: center; }
 .about img { width: 260px; border-radius: 8px; flex-shrink: 0; }
-.about h2 { color: var(--green); font-size: 26px; margin-bottom: 12px; }
+.about h2 { color: var(--green); font-size: 30px; margin-bottom: 14px; }
 .about p { font-size: 14px; line-height: 1.8; color: var(--green-dark); margin: 0 0 12px; }
 .about .link { color: var(--rose); font-weight: 600; font-size: 14px; }
 
@@ -101,7 +111,7 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .presta-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
 .presta-card:hover .presta-card-img img { transform: scale(1.05); }
 .presta-card-body { padding: 20px 22px 24px; text-align: center; }
-.presta-card-body h3 { font-size: 19px; margin-bottom: 8px; }
+.presta-card-body h3 { font-size: 22px; margin-bottom: 8px; }
 .presta-card-body p { font-size: 13px; color: var(--text); line-height: 1.6; margin: 0 0 12px; }
 .presta-card-body .link { color: var(--rose); font-weight: 600; font-size: 13px; }
 
@@ -267,7 +277,7 @@ footer .bottom-bar a:hover { color: #fff; }
 .cookie-actions .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.4); }
 .cookie-actions .btn-ghost:hover { background: rgba(255,255,255,0.1); }
 
-@media (max-width: 720px) {
+@media (max-width: 1000px) {
   .nav-links { position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column; align-items: flex-start; gap: 0; display: none; border-bottom: 1px solid #eee; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
   .nav-links.open { display: flex; }
   .nav-links > a, .nav-links > .has-dropdown { width: 100%; padding: 14px 24px; border-bottom: 1px solid #f2f2f2; }

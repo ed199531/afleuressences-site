@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var hasDropdown = document.querySelector('.has-dropdown');
   if (dropdownToggle && hasDropdown) {
     dropdownToggle.addEventListener('click', function (e) {
-      if (window.innerWidth <= 720) {
+      if (window.innerWidth <= 1000) {
         e.preventDefault();
         var open = hasDropdown.classList.toggle('open');
         dropdownToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
