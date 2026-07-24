@@ -342,6 +342,11 @@ footer .bottom-bar a:hover { color: #fff; }
 .article-cta h2 { font-family: 'Playfair Display', Georgia, serif; color: var(--green-dark); font-size: 24px; margin: 0 0 16px; }
 .blog-card-meta { font-size: 11px; color: var(--rose); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; margin: 0 0 6px; }
 
+/* Miniatures cliquables : elles menent a la galerie complete */
+.carousel-track > a { display: block; border-radius: 8px; overflow: hidden; }
+.carousel-track > a img { transition: transform .3s ease, opacity .2s ease; }
+.carousel-track > a:hover img { transform: scale(1.04); opacity: .92; }
+
 .cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 100; background: #2f3a24; color: #fff; border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
 .cookie-banner-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; max-width: 900px; margin: 0 auto; }
 .cookie-banner p { margin: 0; font-size: 13px; color: #d7ddc9; flex: 1; min-width: 220px; }
