@@ -322,6 +322,10 @@ footer .bottom-bar a:hover { color: #fff; }
 .article-body li { font-size: 17px; line-height: 1.7; margin-bottom: 10px; }
 .article-body li::marker { color: var(--green); }
 .article-body a { color: var(--rose); text-decoration: underline; text-underline-offset: 2px; }
+/* le bouton garde son texte blanc et sans soulignement dans un article */
+.article-body a.btn { color: #fff; text-decoration: none; }
+.article-body a.btn:hover { color: #fff; }
+.filters-empty { text-align: center; color: #999; font-size: 15px; padding: 30px 0; }
 .article-body .chapo { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; line-height: 1.5; color: var(--green-dark); margin: 0 0 28px; }
 .article-body blockquote { border-left: 3px solid var(--rose); margin: 24px 0; padding: 4px 0 4px 20px; font-style: italic; color: var(--text-dark); }
 .article-note { background: var(--sage); border-radius: 10px; padding: 18px 22px; font-size: 15px; margin: 26px 0; }

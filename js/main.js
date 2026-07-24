@@ -55,10 +55,21 @@ document.addEventListener('DOMContentLoaded', function () {
         filters.querySelectorAll('button').forEach(function (b) { b.classList.remove('active'); });
         tab.classList.add('active');
         var filter = tab.getAttribute('data-filter');
+        var visibles = 0;
         items.forEach(function (item) {
           var show = filter === 'all' || item.getAttribute('data-category') === filter;
           item.style.display = show ? '' : 'none';
+          if (show) visibles++;
         });
+        // message quand une categorie n'a pas encore d'article
+        var empty = grid.parentNode.querySelector('.filters-empty');
+        if (!empty) {
+          empty = document.createElement('p');
+          empty.className = 'filters-empty';
+          grid.parentNode.insertBefore(empty, grid.nextSibling);
+        }
+        empty.textContent = grid.getAttribute('data-empty') || 'Les premiers articles de cette rubrique arrivent bientot.';
+        empty.style.display = visibles ? 'none' : 'block';
       });
     });
   }
