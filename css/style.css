@@ -18,7 +18,7 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; font-family: 'Lora', Georgia, serif; font-size: 16px; line-height: 1.75; color: var(--text); background: #fff; }
+body { margin: 0; font-family: 'Lora', Georgia, serif; font-size: 15.5px; line-height: 1.75; color: var(--text); background: #fff; }
 h1, h2 { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; color: var(--text-dark); margin: 0; letter-spacing: 0.2px; }
 h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--text-dark); margin: 0; }
 .script-accent { font-family: 'Great Vibes', cursive; font-weight: 400; }
@@ -66,7 +66,7 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; }
 .hero-content { text-align: left; }
 .hero h1 { font-size: 40px; margin-bottom: 18px; color: var(--green); }
-.hero-quote { font-family: 'Cormorant Garamond', Georgia, serif; font-style: normal; font-weight: 500; font-size: 26px; line-height: 1.65; color: var(--text-dark); margin-bottom: 16px; }
+.hero-quote { font-family: 'Cormorant Garamond', Georgia, serif; font-style: normal; font-weight: 500; font-size: 24px; line-height: 1.65; color: var(--text-dark); margin-bottom: 16px; }
 .hero-author { font-size: 13px; color: var(--green-dark); margin-bottom: 18px; }
 .hero-image { display: block; cursor: pointer; position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 16px 40px rgba(30,35,20,0.15); aspect-ratio: 4/5; }
 .hero-image img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.2s ease; }
@@ -88,7 +88,7 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .section { padding: 64px 0; }
 .section-narrow { max-width: 760px; margin: 0 auto; }
 .section-title { text-align: center; font-size: 34px; color: var(--green); margin-bottom: 44px; }
-.section p.lead { font-size: 16px; line-height: 1.85; margin: 0 0 20px; }
+.section p.lead { font-size: 15.5px; line-height: 1.85; margin: 0 0 20px; }
 .section h2.sub { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--green); font-size: 26px; letter-spacing: 0.3px; margin: 34px 0 12px; }
 
 .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
@@ -228,13 +228,13 @@ form.contact-form .consent { font-size: 12px; display: flex; gap: 8px; align-ite
 .footer-cta .btn:hover { background: #b32b42; }
 
 footer { background: #2f3a24; padding: 48px 0 20px; font-size: 13px; color: #d7ddc9; }
-footer .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 28px; }
+footer .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 28px; align-items: start; }
 footer .brand-col .logo-white { font-family: 'Bellerose', Georgia, serif; font-style: italic; font-size: 24px; color: #fff; margin-bottom: 10px; display: block; }
 footer .brand-col p { color: #b9c2a6; line-height: 1.7; margin: 0 0 16px; }
 footer .social-row { display: flex; gap: 10px; }
 footer .social-row a { display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 50%; background: rgba(255,255,255,0.1); color: #fff; }
 footer .social-row a:hover { background: var(--rose); }
-footer h4 { font-family: 'Avalonn', sans-serif; text-transform: uppercase; letter-spacing: 1px; color: #fff; font-size: 12px; font-weight: 600; margin-bottom: 14px; }
+footer h4 { font-family: 'Lora', Georgia, serif; text-transform: uppercase; letter-spacing: 1px; color: #fff; font-size: 12px; font-weight: 600; line-height: 1.7; margin: 0 0 14px; }
 footer p, footer a { color: #b9c2a6; line-height: 1.9; margin: 0; display: block; }
 footer a:hover { color: #fff; }
 footer .bottom-bar { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 18px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font-size: 12px; color: #8a9478; }
@@ -315,11 +315,11 @@ footer .bottom-bar a:hover { color: #fff; }
 .article-cover { max-width: 900px; margin: -30px auto 0; padding: 0 24px; }
 .article-cover img { width: 100%; border-radius: 12px; aspect-ratio: 16/9; object-fit: cover; box-shadow: 0 16px 40px rgba(30,35,20,0.15); }
 .article-body { max-width: 720px; margin: 0 auto; padding: 40px 24px 8px; }
-.article-body p { font-size: 17px; line-height: 1.85; margin: 0 0 20px; }
+.article-body p { font-size: 16.5px; line-height: 1.85; margin: 0 0 20px; }
 .article-body h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 27px; color: var(--text-dark); margin: 40px 0 12px; }
 .article-body h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 22px; color: var(--green); margin: 28px 0 8px; }
 .article-body ul { margin: 0 0 20px; padding-left: 22px; }
-.article-body li { font-size: 17px; line-height: 1.7; margin-bottom: 10px; }
+.article-body li { font-size: 16.5px; line-height: 1.7; margin-bottom: 10px; }
 .article-body li::marker { color: var(--green); }
 .article-body a { color: var(--rose); text-decoration: underline; text-underline-offset: 2px; }
 /* le bouton garde son texte blanc et sans soulignement dans un article */
