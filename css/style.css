@@ -74,6 +74,13 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 .hero-image img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.2s ease; }
 .hero-image img.active { opacity: 1; }
 
+/* Ecrans intermediaires : le logo haute definition est plus large, on lui donne
+   un peu moins de hauteur et on resserre le menu pour garder de la marge. */
+@media (min-width: 1001px) and (max-width: 1180px) {
+  .logo img { height: 56px; }
+  .nav-links { gap: 22px; font-size: 14.5px; }
+}
+
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; text-align: center; }
   .hero-content { text-align: center; }
