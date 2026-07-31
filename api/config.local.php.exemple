@@ -1,0 +1,14 @@
+<?php
+/* MODELE de configuration locale. A dupliquer en "config.local.php" (sans
+   .exemple) et a remplir avec le vrai secret, puis a envoyer sur OVH par FTP.
+
+   config.local.php est exclu de git : son contenu ne partira jamais dans un
+   commit, donc jamais sur GitHub. Ce fichier-modele, lui, est versionne mais
+   ne contient aucun secret.
+
+   Le secret d'integration Notion se cree sur notion.so/my-integrations et
+   commence par "ntn_". Ne le partager avec personne. */
+
+return [
+    'NOTION_TOKEN' => '',   // <-- coller ici le secret d'integration Notion
+];

@@ -8,13 +8,26 @@
    POUR ACTIVER LA SYNCHRO NOTION (a faire une fois, au passage sur OVH) :
    1. Sur notion.so/my-integrations, creer une integration interne, copier son secret.
    2. Partager la base "Ateliers" avec cette integration (menu ... > Connexions).
-   3. Renseigner NOTION_TOKEN et NOTION_DATA_SOURCE_ID ci-dessous.
-   Tant que NOTION_TOKEN est vide, le site affiche les ateliers du fichier JSON. */
+   3. Copier api/config.local.php.exemple en api/config.local.php et y coller le
+      secret. Envoyer ce seul fichier sur OVH par FTP.
+   Tant que le token est absent, le site affiche les ateliers du fichier JSON.
+
+   IMPORTANT : ne jamais ecrire le token dans ce fichier. config.local.php est
+   exclu de git (.gitignore) pour qu'aucun secret ne parte dans un commit. */
 
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-$NOTION_TOKEN          = '';                                        // <-- coller le secret d'integration ici
+/* Le token vient d'une variable d'environnement, sinon d'un fichier local
+   non versionne. Jamais en dur ici. */
+$NOTION_TOKEN = getenv('NOTION_TOKEN') ?: '';
+if ($NOTION_TOKEN === '' && is_readable(__DIR__ . '/config.local.php')) {
+    $local = require __DIR__ . '/config.local.php';
+    if (is_array($local) && !empty($local['NOTION_TOKEN'])) {
+        $NOTION_TOKEN = $local['NOTION_TOKEN'];
+    }
+}
+
 $NOTION_DATA_SOURCE_ID = '3a80ba2c-0278-49b4-8061-9fb152f18b39';    // base "Ateliers"
 $CACHE_FILE            = __DIR__ . '/ateliers-cache.json';
 $CACHE_TTL             = 300;                                       // secondes (5 min)
