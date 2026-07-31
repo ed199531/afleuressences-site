@@ -1,3 +1,11 @@
 .DS_Store
 .vercel
 node_modules
+.env
+.env.*
+config.local.php
+*-cache.json
+*.pem
+*.key
+credentials.json
+secrets.json
