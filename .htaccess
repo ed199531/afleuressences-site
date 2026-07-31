@@ -76,6 +76,33 @@ RewriteCond %{THE_REQUEST} \s/+([^.\s]+)\.html[\s?] [NC]
 RewriteRule ^ /%1 [L,R=301]
 
 # ------------------------------------------------------------
+# 4bis) Protection du fichier de configuration (secrets)
+#    config.local.php contient le token Notion. Normalement PHP l'execute et
+#    n'affiche rien, mais si le handler PHP tombe en panne, Apache servirait
+#    la source en clair. On interdit donc l'acces directement.
+#    On bloque aussi les fichiers de sauvegarde laisses par les editeurs FTP
+#    (config.local.php~, .bak, .save, .swp) : ceux-la seraient servis en
+#    TEXTE BRUT et exposeraient la cle.
+# ------------------------------------------------------------
+<FilesMatch "^config\.local\.php">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(bak|save|old|orig|swp|swo|tmp|exemple|example|dist|log|sql|env)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "~$">
+  Require all denied
+</FilesMatch>
+
+# Interdit la lecture du cache Notion et de tout .json de config interne
+<Files "ateliers-cache.json">
+  Require all denied
+</Files>
+
+# Pas de listage de repertoire (evite de decouvrir /api/)
+Options -Indexes
+
+# ------------------------------------------------------------
 # 5) En-têtes de sécurité (checklist standard)
 # ------------------------------------------------------------
 <IfModule mod_headers.c>
