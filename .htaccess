@@ -35,6 +35,25 @@ RedirectMatch 301 ^/fleurissement-de-sepultures-par-abonnements/?$  /prestations
 RedirectMatch 301 ^/prestations/fleurissement-sepultures/?$  /prestations/hommages#fleurissement-sepultures
 RedirectMatch 301 ^/en/services/grave-flowering/?$  /en/services/sympathy-flowers#grave-flowering
 
+# --- Anciens articles et archives WordPress (releves dans le sitemap du site actuel) ---
+# Article de SEO local : on renvoie vers l'accueil, qui cible L'Union / Toulouse
+RedirectMatch 301 ^/fleuriste-a-proximite-de-saint-jean/?$   /
+# Article sur les cours : equivalent direct
+RedirectMatch 301 ^/cours-dart-floral-a-lunion/?$            /prestations/cours-art-floral
+# Article sur les approvisionnements et la demarche : repris dans la page personnelle
+RedirectMatch 301 ^/nos-approvisionnements/?$                /un-peu-de-moi
+# Archive du calendrier d'evenements WordPress (plugin MEC) = planning des ateliers
+RedirectMatch 301 ^/events/?.*$                              /prestations/cours-art-floral
+# Article obsolete
+RedirectMatch 301 ^/confinement/?$                           /
+
+# --- Anciens plans de site et fichiers WordPress : on evite les 404 en serie ---
+RedirectMatch 301 ^/(post|page|attachment|attachment2|mec-events|post-archive|post_tag|language)-sitemap\d*\.xml$  /sitemap.xml
+RedirectMatch 301 ^/sitemap_index\.xml$                      /sitemap.xml
+RedirectMatch 301 ^/wp-sitemap\.xml$                         /sitemap.xml
+RedirectMatch 301 ^/feed/?$                                   /blog
+RedirectMatch 301 ^/comments/feed/?$                          /blog
+
 # --- Pages EN (ancienne structure /en/<slug> -> nouvelle /en/... ) ---
 RedirectMatch 301 ^/en/floral-toulouse/?$          /en/
 RedirectMatch 301 ^/en/floral-artisan-toulouse/?$  /en/
