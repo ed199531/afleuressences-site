@@ -1,251 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://afleuressences.fr/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/"/>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/en/services</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/mariage-chateau-de-merville</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-merville"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-merville"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/mariage-chateau-de-latournelle</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-latournelle"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-latournelle"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/mariage-chateau-de-puydaniel</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-puydaniel"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-puydaniel"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/en/wedding-chateau-de-merville</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-merville"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-merville"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/en/wedding-chateau-de-latournelle</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-latournelle"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-latournelle"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/en/wedding-chateau-de-puydaniel</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-puydaniel"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-puydaniel"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/un-peu-de-moi</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/un-peu-de-moi"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/about"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations/fine-art-weddings</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/fine-art-weddings"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/fine-art-weddings"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations/mariages</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/mariages"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/weddings"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations/evenements-de-vie</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/evenements-de-vie"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/life-events"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations/hommages</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/hommages"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/sympathy-flowers"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations/cours-art-floral</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/cours-art-floral"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/floral-workshops"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/prestations/abonnements</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations/abonnements"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/subscriptions"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/realisations</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/realisations"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/portfolio"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://afleuressences.fr/blog</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/blog"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/blog"/>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/blog"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/blog/fine-art-floral-style</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/blog/mariages-fin-annee</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/blog/tendances-mariage-2026</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/blog/tendances-mariage-2027</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://afleuressences.fr/contact</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/contact"/>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/contact"/>
-    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/about</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/un-peu-de-moi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/about"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/blog</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/blog"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/contact</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/contact"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/portfolio</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/realisations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/portfolio"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/fine-art-weddings</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/fine-art-weddings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/fine-art-weddings"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/floral-workshops</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/cours-art-floral"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/floral-workshops"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/life-events</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/evenements-de-vie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/life-events"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/subscriptions</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/abonnements"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/subscriptions"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/sympathy-flowers</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/hommages"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/sympathy-flowers"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/services/weddings</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/mariages"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/weddings"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-caumont</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-la-baronnie</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-latournelle</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-latournelle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-latournelle"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-longpre</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-merville</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-merville"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-merville"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-chateau-de-puydaniel</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-puydaniel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-puydaniel"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-domaine-du-t</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/en/wedding-manoir-du-thouron</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-caumont</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-caumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-la-baronnie</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-la-baronnie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-latournelle</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-latournelle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-latournelle"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-longpre</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-longpre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-merville</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-merville"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-merville"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-chateau-de-puydaniel</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-puydaniel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-puydaniel"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-domaine-du-t</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-du-t"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/mariage-manoir-du-thouron</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-manoir-du-thouron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
   </url>
   <url>
     <loc>https://afleuressences.fr/mentions-legales</loc>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
     <loc>https://afleuressences.fr/politique-de-confidentialite</loc>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://afleuressences.fr/mariage-chateau-de-la-baronnie</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-la-baronnie"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+    <loc>https://afleuressences.fr/prestations/abonnements</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/abonnements"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/subscriptions"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/en/wedding-chateau-de-la-baronnie</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-la-baronnie"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-la-baronnie"/>
+    <loc>https://afleuressences.fr/prestations/cours-art-floral</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/cours-art-floral"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/floral-workshops"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/mariage-domaine-du-t</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-du-t"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+    <loc>https://afleuressences.fr/prestations/evenements-de-vie</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/evenements-de-vie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/life-events"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/en/wedding-domaine-du-t</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-du-t"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-du-t"/>
+    <loc>https://afleuressences.fr/prestations/fine-art-weddings</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/fine-art-weddings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/fine-art-weddings"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+    <loc>https://afleuressences.fr/prestations/hommages</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/hommages"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/sympathy-flowers"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-domaine-saint-martin-de-ronsac"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-domaine-saint-martin-de-ronsac"/>
+    <loc>https://afleuressences.fr/prestations/</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/prestations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/mariage-manoir-du-thouron</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-manoir-du-thouron"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
+    <loc>https://afleuressences.fr/prestations/mariages</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/prestations/mariages"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/services/weddings"/>
   </url>
   <url>
-    <loc>https://afleuressences.fr/en/wedding-manoir-du-thouron</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-manoir-du-thouron"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-manoir-du-thouron"/>
+    <loc>https://afleuressences.fr/realisations</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/realisations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/portfolio"/>
+  </url>
+  <url>
+    <loc>https://afleuressences.fr/un-peu-de-moi</loc>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/mariage-chateau-de-longpre</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-longpre"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/en/wedding-chateau-de-longpre</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-longpre"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-longpre"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/mariage-chateau-de-caumont</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-caumont"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/en/wedding-chateau-de-caumont</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://afleuressences.fr/mariage-chateau-de-caumont"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/wedding-chateau-de-caumont"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/blog/tendances-mariage-2026</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/blog/tendances-mariage-2027</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/blog/mariages-fin-annee</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://afleuressences.fr/blog/fine-art-floral-style</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://afleuressences.fr/un-peu-de-moi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://afleuressences.fr/en/about"/>
   </url>
 </urlset>
