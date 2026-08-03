@@ -129,6 +129,24 @@ function nb_blocks_html($blocks) {
     return $html;
 }
 
+/* Visuel de repli : si la cliente n'a pas rempli le champ Image dans Notion,
+   on prend une photo DEJA presente sur le site, choisie selon la categorie de
+   l'article, plutot qu'une image generique hors sujet. */
+function nb_image_categorie($categorie) {
+    $map = [
+        'Mariages'  => '/images/gallery/derniere-306.jpg',
+        'Conseils'  => '/images/gallery/fineart-d36.jpg',
+        'Saison'    => '/images/gallery/evenements-d14.jpg',
+        'Château'   => '/images/gallery/dom-domaine-du-t-07.jpg',
+        'Actualité' => '/images/gallery/abonnements-d03.jpg',
+    ];
+    if (isset($map[$categorie])) {
+        $chemin = dirname(__DIR__) . $map[$categorie];
+        if (is_readable($chemin)) return $map[$categorie];
+    }
+    return '/images/og-afleuressences.jpg';
+}
+
 /* ---------- requetes ---------- */
 function nb_published_filter() {
     return ['and' => [
