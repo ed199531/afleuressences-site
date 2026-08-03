@@ -82,6 +82,25 @@ RedirectMatch 301 ^/wp-login\.php$   /
 </Files>
 
 # ------------------------------------------------------------
+# 3bis) Blog pilote depuis Notion
+#    /blog        -> blog.php (liste = articles statiques + articles Notion)
+#    /blog/<slug> -> le fichier statique s'il existe, sinon article.php
+#    Un article Notion n'apparait que si Statut = Publie ET date <= aujourd'hui,
+#    la publication programmee fonctionne donc toute seule.
+# ------------------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^blog/?$  /blog.php  [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^en/blog/?$  /blog.php?lang=EN  [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/blog/$1.html !-f
+RewriteRule ^blog/([a-z0-9-]+)/?$  /article.php?slug=$1  [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/en/blog/$1.html !-f
+RewriteRule ^en/blog/([a-z0-9-]+)/?$  /article.php?slug=$1&lang=EN  [L,QSA]
+
+# ------------------------------------------------------------
 # 4) URLs propres : /prestations/mariages -> /prestations/mariages.html
 #    (sert le .html sans l'afficher dans la barre d'adresse)
 # ------------------------------------------------------------
