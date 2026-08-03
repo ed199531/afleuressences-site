@@ -86,7 +86,10 @@ header.scrolled { box-shadow: 0 4px 16px rgba(30,35,20,0.08); }
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; text-align: center; }
   .hero-content { text-align: center; }
-  .hero-image { max-width: 360px; margin: 0 auto; aspect-ratio: 4/3; order: -1; }
+  /* width + justify-self et non margin auto : sur un element de grille, margin auto
+     force le dimensionnement au contenu, or les slides sont en position absolue,
+     donc le diaporama se reduisait a 0 px et disparaissait sur mobile. */
+  .hero-image { width: 100%; max-width: 360px; justify-self: center; aspect-ratio: 4/5; order: -1; }
 }
 
 .page-hero { background: var(--sage); padding: 54px 24px 50px; }
