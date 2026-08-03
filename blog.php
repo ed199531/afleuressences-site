@@ -26,7 +26,7 @@ function carte($a, $CAT, $MOIS, $prefixe = '/blog/') {
     $cat  = $CAT[$a['categorie']] ?? 'actualites';
     $ts   = $a['date'] ? strtotime($a['date']) : time();
     $date = date('j', $ts) . ' ' . $MOIS[(int)date('n', $ts)] . ' ' . date('Y', $ts);
-    $img  = $a['image'] !== '' ? $a['image'] : '/images/og-afleuressences.jpg';
+    $img  = $a['image'] !== '' ? $a['image'] : nb_image_categorie($a['categorie']);
     $res  = $a['resume'] !== '' ? $a['resume'] : '';
     return '      <a class="service-card" data-category="' . nb_esc($cat) . '" href="' . $prefixe . nb_esc($a['slug'])
          . '" style="text-align:left;display:block">' . "\n"

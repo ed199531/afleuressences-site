@@ -29,7 +29,7 @@ if (!empty($a['date'])) {
 }
 $mots    = str_word_count(strip_tags($a['html'] ?? ''));
 $lecture = max(1, (int)round($mots / 200));
-$image   = $a['image'] !== '' ? $a['image'] : '/images/og-afleuressences.jpg';
+$image   = $a['image'] !== '' ? $a['image'] : nb_image_categorie($a['categorie']);
 $imageAbs= (strpos($image, 'http') === 0) ? $image : 'https://afleuressences.fr' . $image;
 $url     = 'https://afleuressences.fr/blog/' . $a['slug'];
 $resume  = $a['resume'] !== '' ? $a['resume'] : mb_substr(trim(strip_tags($a['html'] ?? '')), 0, 155);
